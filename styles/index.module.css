@@ -1,0 +1,10 @@
+.loading {
+    height: 668px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

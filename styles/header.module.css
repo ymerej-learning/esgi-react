@@ -1,0 +1,13 @@
+.navbar_recipes {
+    font-size: 2em;
+    height: 40px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}

@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "development": "vite"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "vite": "^2.9.1"
+  }
+}
