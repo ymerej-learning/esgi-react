@@ -1,12 +1,15 @@
 import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 
-import Header from "./components/header";
-import Footer from "./components/footer";
+import Header from "./components/Basic/header";
+import Footer from "./components/Basic/footer";
 
 import classes from "./styles/index.module.css";
+import Counter from "./components/Counter/counter";
 
-const Recipe = lazy(() => import("./components/recipe"));
+import JSONPlaceholder from "./components/Fetch/jsonplaceholder";
+
+const Recipe = lazy(() => import("./components/Basic/recipe"));
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
@@ -14,7 +17,9 @@ const root = ReactDOM.createRoot(rootElement);
 const App = () => {
     return (
         <>
-            <Header />
+            <JSONPlaceholder />
+            {/* <Counter /> */}
+            {/* <Header />
             <Suspense fallback={<div className={ classes.loading }>
                 Loading...
             </div>}>
@@ -25,7 +30,7 @@ const App = () => {
                     <Recipe id="4" />
                 </div>
             </Suspense>
-            <Footer />
+            <Footer /> */}
         </>
     );
 }

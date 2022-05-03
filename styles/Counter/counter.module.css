@@ -1,0 +1,43 @@
+.counter_container {
+    width: 100%;
+    display: block;
+}
+
+.counter_input, .step_input {
+    display: flex;
+    justify-content: center;
+}
+
+.counter_input > input,
+.step_input > input {
+    border: none;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    text-align: center;
+}
+
+.counter_input > input:focus,
+.step_input > input:focus {
+    outline: none;
+}
+
+.counter_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.counter_buttons > button {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    outline: none;
+    border: 2px solid black;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.counter_buttons > button:hover{
+    outline: 2px solid black;
+}
