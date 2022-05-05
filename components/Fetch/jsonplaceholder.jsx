@@ -25,6 +25,10 @@ const JSONPlaceholder = () => {
     useEffect(() => {
         fetchData();
     }, []);
+
+    //AbortController
+    //array.flat()
+    //array.flat(Infinity)
       
     return (
         <>
@@ -32,6 +36,7 @@ const JSONPlaceholder = () => {
                 ?
                     <div>Loading...</div>
                 :
+                    null
             }
         </>
     );
