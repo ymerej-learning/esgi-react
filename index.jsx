@@ -3,15 +3,11 @@ import ReactDOM from "react-dom/client";
 
 // import Header from "./components/Basic/header";
 // import Footer from "./components/Basic/footer";
-
 // import classes from "./styles/index.module.css";
 // import Counter from "./components/Counter/counter";
-
 // import JSONPlaceholder from "./components/Fetch/jsonplaceholder";
-
-import Login from "./components/Form/login";
-
-const Recipe = lazy(() => import("./components/Basic/recipe"));
+// import Login from "./components/Form/login";
+// const Recipe = lazy(() => import("./components/Basic/recipe"));
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
@@ -19,9 +15,6 @@ const root = ReactDOM.createRoot(rootElement);
 const App = () => {
     return (
         <>
-            <Login />
-            {/* <JSONPlaceholder /> */}
-            {/* <Counter /> */}
             {/* <Header />
             <Suspense fallback={<div className={ classes.loading }>
                 Loading...
